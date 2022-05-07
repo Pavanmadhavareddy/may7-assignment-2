@@ -1,0 +1,23 @@
+n=int(input())
+l=[]
+d={}
+for i in range(n):
+    x=int(input())
+    l.append(x)
+j=1
+for i in l:
+    if i%2==0:
+        d[i]='yes'
+    else:
+        d[i]='no'
+    print(d)
+    
+    output:
+    5
+1
+2
+3
+4
+5
+
+{1: 'no', 2: 'yes', 3: 'no', 4: 'yes', 5: 'no'}
